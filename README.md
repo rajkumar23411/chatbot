@@ -11,8 +11,10 @@
 - [Tailwind CSS](https://tailwindcss.com/)
 
 ## 😶‍🌫️ Screenshots
-![image](https://github.com/rajkumar23411/chatbot/assets/90103892/44393754-f025-482e-9d08-a56c01df8dde))  ![](https://github.com/rajkumar23411/chatbot/assets/90103892/4fac718f-c513-4d72-9b0e-923589b1fb73) 
- ![](https://github.com/rajkumar23411/chatbot/assets/90103892/2cc35068-0f0b-4239-8f7c-5d3f5e56e252) ![image](https://github.com/rajkumar23411/chatbot/assets/90103892/e2ebef44-bd1a-4451-87ca-0a734d419e3d)
+![1](https://github.com/rajkumar23411/chatbot/assets/90103892/44393754-f025-482e-9d08-a56c01df8dde))
+![2](https://github.com/rajkumar23411/chatbot/assets/90103892/4fac718f-c513-4d72-9b0e-923589b1fb73) 
+![3](https://github.com/rajkumar23411/chatbot/assets/90103892/2cc35068-0f0b-4239-8f7c-5d3f5e56e252) 
+![4](https://github.com/rajkumar23411/chatbot/assets/90103892/e2ebef44-bd1a-4451-87ca-0a734d419e3d)
 
 ## 🎊 Getting Started
 
@@ -77,9 +79,10 @@ Prerequisites are listed below, install in order to run the project successfully
       ```
 
 
-## 🖥️ Developed By
+## 🤝 Contact
 
-**Rajkumar Kalita © 2023** 
+Author Info - [@rajkumar]([https://linkedin.com/in/manikangkandas](https://www.linkedin.com/in/rajkumar-kalita-9a854a270/)) - rajkumar.kalita@yahoo.com
+<br />
+Project Link - [https://github.com/rajkumar23411/chatbot](https://github.com/rajkumar23411/chatbot)
 
-
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://www.instagram.com/__thisisrajkumar/?next=%2F)
+<p align="right"><a href="#top">back to top</a></p>
