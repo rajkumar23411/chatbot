@@ -15,10 +15,10 @@ const Timer = () => {
             }
         }, 1000);
         return () => clearInterval(interval);
-    }, [time]);
+    }, [time, navigate]);
 
     return (
-        <div className="w-full text-center text-sky-600 underline">
+        <div className="bg-slate-200 w-full absolute bottom-0 left-0 py-2 text-center text-indigo-700">
             <p>Bot will exit in {time} seconds</p>
         </div>
     );

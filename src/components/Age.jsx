@@ -1,9 +1,13 @@
 import React from "react";
+import { useDispatch } from "react-redux";
+import { addStudentInfo } from "../redux/reducers/studentReducer";
 
 const Age = ({ actionProvider }) => {
     const [isAgeSelected, setIsAgeSelected] = React.useState(false);
+    const dispatch = useDispatch();
     const handleAgeChange = (e) => {
         if (e.target.value >= 18 || e.target.value !== "") {
+            dispatch(addStudentInfo({ age: +e.target.value }));
             actionProvider.handleUserAgeInput(e.target.value);
             setIsAgeSelected(true);
         }
@@ -11,11 +15,11 @@ const Age = ({ actionProvider }) => {
 
     return (
         <div
-            className={`w-max mx-auto bg-white shadow-md border border-gray-300 rounded-lg ${
-                isAgeSelected ? "hidden" : "flex"
-            } items-center justify-center px-4 py-2 flex-col h-max gap-4`}
+            className={`w-max mx-auto bg-white shadow border border-pink-200 rounded-lg ${
+                isAgeSelected ? "hidden" : "flex widgets"
+            } items-center justify-center px-10 py-4 flex-col h-max gap-4`}
         >
-            <h1 className="text-indigo-800 font-medium ">Select your Age</h1>
+            <h1 className="text-pink-600 font-medium ">Select your Age</h1>
             {/* drop down from 18 - 40 */}
             <select
                 name="age"

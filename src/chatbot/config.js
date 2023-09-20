@@ -4,6 +4,7 @@ import Slot from "../components/Slot";
 import { Input } from "../components/Input";
 import Age from "../components/Age";
 import Timer from "../components/Timer";
+import BotAvatar from "../components/BotAvatar";
 
 const config = {
     initialMessages: [
@@ -12,6 +13,7 @@ const config = {
         }),
     ],
     state: {},
+    customComponents: { botAvatar: (props) => <BotAvatar {...props} /> },
     widgets: [
         {
             widgetName: "gotItBtn",

@@ -7,14 +7,18 @@ const GotItBtn = ({ actionProvider }) => {
         setIsClicked(true);
     };
     return (
-        <button
+        <div
             onClick={clickHandler}
             className={`${
-                isClicked ? "hidden" : "block"
-            } border-2 border-purple-500 font-semibold text-purple-600 text-sm px-4 py-1 rounded-md`}
+                isClicked
+                    ? "hidden"
+                    : "flex items-center justify-center absolute w-full bottom-5 left-0 widgets"
+            }`}
         >
-            Got it
-        </button>
+            <button className="w-max border border-pink-500 text-pink-600 font-normal px-5 py-2 rounded-md">
+                Got it!
+            </button>
+        </div>
     );
 };
 
