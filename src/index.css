@@ -67,9 +67,9 @@ body::-webkit-scrollbar {
     display: none;
 }
 .react-chatbot-kit-chat-bot-message {
-    background-color: rgba(255, 91, 146, 0.2) !important;
-    border: 1px solid rgba(255, 91, 146, 0.5);
-    color: rgb(49, 70, 94) !important;
+    background-color: rgba(235, 77, 75, 1) !important;
+    box-shadow: inset 0 5px 10px rgb(219, 62, 59);
+    color: white !important;
     z-index: 2 !important;
     margin-left: 0px !important;
     border-radius: 0px 1rem 1rem 1rem !important;
@@ -78,9 +78,9 @@ body::-webkit-scrollbar {
     max-width: 230px !important;
 }
 .react-chatbot-kit-user-chat-message {
-    background-color: rgba(28, 157, 234, 0.2) !important;
-    border: 1px solid rgba(28, 157, 234, 0.5);
-    color: rgb(49, 70, 94) !important;
+    background-color: rgba(108, 92, 231, 1) !important;
+    box-shadow: inset 0 5px 10px rgb(93, 76, 215);
+    color: white !important;
     border-radius: 10px 0px 10px 10px !important;
     padding: 0.8rem;
     max-width: 230px !important;
@@ -94,12 +94,10 @@ body::-webkit-scrollbar {
     animation: anim 0.5s ease forwards;
 }
 .react-chatbot-kit-chat-bot-avatar-container {
-    background: rgba(255, 91, 146, 0.2) !important;
-    border: 1px solid rgba(255, 91, 146, 0.5) !important;
+    background: rgba(235, 77, 75, 1) !important;
 }
 .react-chatbot-kit-user-avatar-container {
-    background-color: rgba(28, 157, 234, 0.4) !important;
-    border: 1px solid rgba(28, 157, 234, 0.5) !important;
+    background-color: rgba(108, 92, 231, 1) !important;
 }
 .react-chatbot-kit-chat-bot-avatar-letter {
     font-size: 14px !important ;

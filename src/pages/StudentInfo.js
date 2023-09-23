@@ -29,11 +29,11 @@ const StudentInfo = () => {
                         />
                         <h1 className="text-gray-700 widgets ">
                             Your name{" "}
-                            <span className="font-medium text-pink-600 capitalize">
+                            <span className="font-medium text-red-600 capitalize">
                                 {studentInfo?.name}
                             </span>{" "}
                             aged{" "}
-                            <span className="font-medium text-pink-600">
+                            <span className="font-medium text-red-600">
                                 {studentInfo?.age}
                             </span>
                         </h1>

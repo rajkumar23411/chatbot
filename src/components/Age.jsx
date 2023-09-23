@@ -19,16 +19,14 @@ const Age = ({ actionProvider }) => {
                 isAgeSelected ? "hidden" : "flex widgets"
             } items-center justify-center px-10 py-4 flex-col h-max gap-4`}
         >
-            <h1 className="text-pink-600 font-medium ">Select your Age</h1>
+            <h1 className="text-gray-900 font-medium">Select your Age</h1>
             {/* drop down from 18 - 40 */}
             <select
                 name="age"
                 className="w-max h-10 bg-transparent border border-gray-300 rounded-md outline-none px-2"
                 onChange={(e) => handleAgeChange(e)}
             >
-                <option defaultValue="" selected>
-                    Select
-                </option>
+                <option defaultValue="">Select</option>
                 {Array.from({ length: 23 }, (_, i) => i + 18).map((age) => (
                     <option key={age} value={age}>
                         {age}

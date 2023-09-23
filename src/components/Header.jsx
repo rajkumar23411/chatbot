@@ -1,12 +1,18 @@
 import { useState } from "react";
 import { CiGrid41 } from "react-icons/ci";
 import Navbar from "./Navbar";
+import { useNavigate } from "react-router-dom";
 const Header = () => {
     const [showNavbar, setShowNavbar] = useState(false);
+    const navigate = useNavigate();
+
     return (
         <>
             <div className="h-12 z-40 bg-white drop-shadow-md flex items-center justify-between px-4">
-                <h1 className=" text-blue-950 font-sans font-medium">
+                <h1
+                    onClick={() => navigate("/")}
+                    className=" text-blue-950 cursor-pointer font-sans font-medium"
+                >
                     <span className="text-red-600 font-bold">L</span>ean
                     <span className="text-red-600 font-bold">L</span>ink
                 </h1>

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { FiSend } from "react-icons/fi";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { addStudentInfo } from "../redux/reducers/studentReducer";
 export const Input = ({ actionProvider }) => {
     const [isNameEntered, setIsNameEntered] = React.useState(false);
@@ -19,7 +19,6 @@ export const Input = ({ actionProvider }) => {
                 })
             );
             actionProvider.handleUserNameInput(name);
-            setName("");
             setIsNameSubmitted(true);
         }
     };
@@ -54,7 +53,7 @@ export const Input = ({ actionProvider }) => {
                 type="submit"
                 onClick={handleSubmit}
                 className={`h-full w-16 ${
-                    isNameEntered ? "bg-pink-600" : "bg-pink-400"
+                    isNameEntered ? "bg-red-600" : "bg-red-400"
                 } flex items-center justify-center rounded-xl`}
             >
                 <FiSend className="text-white text-xl" />

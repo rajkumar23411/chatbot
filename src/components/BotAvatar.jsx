@@ -8,7 +8,7 @@ const BotAvatar = () => {
                 className="react-chatbot-kit-chat-bot-avatar-container"
                 style={{ background: "none" }}
             >
-                <FaRobot className="text-pink-900" />
+                <FaRobot className="text-white" />
             </div>
         </div>
     );

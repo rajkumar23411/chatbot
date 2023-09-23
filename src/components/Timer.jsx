@@ -18,7 +18,7 @@ const Timer = () => {
     }, [time, navigate]);
 
     return (
-        <div className="bg-slate-200 w-full absolute bottom-0 left-0 py-2 text-center text-indigo-700">
+        <div className="bg-red-100 w-full absolute bottom-0 left-0 py-2 text-center text-red-700">
             <p>Bot will exit in {time} seconds</p>
         </div>
     );
