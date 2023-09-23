@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# LearnLink - A chat bot to store student data
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
+  This is a simple react chat bot web app build with react-chatbot-kit, where data are stored using redux-toolkit.
 
-## Available Scripts
+## 🏗️ Built With
 
-In the project directory, you can run:
+- [React.js](https://reactjs.org/)
+- [react-chatbot-kit](https://fredrikoseberg.github.io/react-chatbot-kit-docs/docs/)
+- [redux-toolkit](https://redux-toolkit.js.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-### `npm start`
+## 😶‍🌫️ Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+| Display | Display |
+| ----------- | ---------- |
+| ![1](https://github.com/rajkumar23411/chatbot/assets/90103892/44393754-f025-482e-9d08-a56c01df8dde) | ![2](https://github.com/rajkumar23411/chatbot/assets/90103892/4fac718f-c513-4d72-9b0e-923589b1fb73) |
+| ![3](https://github.com/rajkumar23411/chatbot/assets/90103892/2cc35068-0f0b-4239-8f7c-5d3f5e56e252) | ![4](https://github.com/rajkumar23411/chatbot/assets/90103892/e2ebef44-bd1a-4451-87ca-0a734d419e3d) |
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🎊 Getting Started
 
-### `npm test`
+After successful installation of the prerequisites, create credentials to proceed -
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You will need to have at least two browser windows open with two different credentials to see the project in action.
 
-### `npm run build`
+Follow video demonstration🤝
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### ⚙️ Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Prerequisites are listed below, install in order to run the project successfully in you local machine.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- node
+- git
+- browser
+- npm
 
-### `npm run eject`
+  ```sh
+  npm install npm@latest -g
+  ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  or
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- yarn
+  ```sh
+  npm install --global yarn
+  ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🧑🏻‍🎤 Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the repo
 
-## Learn More
+   ```sh
+   git clone https://github.com/rajkumar23411/chatbot.git
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Navigate to dir
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   1. Install packages using NPM or YARN
 
-### Code Splitting
+      ```sh
+      npm install
+      ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+      or
 
-### Analyzing the Bundle Size
+      ```sh
+      yarn add
+      ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   2. Run using NPM or YARN
 
-### Making a Progressive Web App
+      ```sh
+      npm start
+      ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+      or
 
-### Advanced Configuration
+      ```sh
+      yarn start
+      ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## 🤝 Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Author Info - [@rajkumar]([https://linkedin.com/in/manikangkandas](https://www.linkedin.com/in/rajkumar-kalita-9a854a270/)) - rajkumar.kalita@yahoo.com
+<br />
+Project Link - [https://github.com/rajkumar23411/chatbot](https://github.com/rajkumar23411/chatbot)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right"><a href="#top">back to top</a></p>
